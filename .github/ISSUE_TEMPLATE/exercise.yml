@@ -17,15 +17,16 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+      
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Summary
+      description: Summary of your exercise.
+      placeholder: Summary Here      
     validations:
-      required: true
+      required: false
+      
   - type: dropdown
     id: version
     attributes:
