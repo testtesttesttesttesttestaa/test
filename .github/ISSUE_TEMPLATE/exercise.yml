@@ -5,21 +5,8 @@ labels: ["exercise"]
 assignees:
   - codecalories
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to contribute on this project!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-      
   - type: textarea
-    id: what-happened
+    id: Summary
     attributes:
       label: Summary
       description: Summary of your exercise.
