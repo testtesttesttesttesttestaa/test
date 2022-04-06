@@ -25,18 +25,24 @@ body:
       description: Summary of your exercise.
       placeholder: Summary Here      
     validations:
-      required: false
+      required: true
       
   - type: dropdown
-    id: version
+    id: language
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Language
+      description: What language is your exercise about?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Python
+        - Java
+        - Java Script
+        - C
+        - C++
+        - C#
+        - Other
     validations:
       required: true
+      
   - type: dropdown
     id: browsers
     attributes:
