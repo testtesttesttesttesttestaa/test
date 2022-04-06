@@ -44,11 +44,10 @@ body:
       required: true
       
   - type: input
-    id: other
+    id: If other languages
     attributes:
-      label: other
       description: "if other languages write here"
-      placeholder: "aa"
+      placeholder: "Your language here"
     validations:
       required: true  
       
