@@ -46,9 +46,9 @@ body:
    - type: input
     id: other
     attributes:
-      label: 
+      label: other
       description: "if other languages write here"
-      placeholder: ""
+      placeholder: "aa"
     validations:
       required: true  
       
