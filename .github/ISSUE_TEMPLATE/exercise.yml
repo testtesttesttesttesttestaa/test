@@ -1,14 +1,14 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: New Question (Exercise)
+description: File an exercise
+title: "[New Question]: "
+labels: ["exercise"]
 assignees:
-  - octocat
+  - codecalories
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to contribute on this project!
   - type: input
     id: contact
     attributes:
