@@ -26,6 +26,15 @@ body:
       placeholder: Summary Here      
     validations:
       required: true
+  
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description
+      description: Description of exercise.
+      placeholder: Description
+    validations:
+      required: true
       
   - type: dropdown
     id: language
