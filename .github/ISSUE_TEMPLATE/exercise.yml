@@ -1,8 +1,5 @@
 name: New Exercise
 description: File an exercise
-- type: markdown
-    attributes:
-        label: Contact Details
 title: "[New Exercise]: "
 labels: ["exercise"]
 assignees:
