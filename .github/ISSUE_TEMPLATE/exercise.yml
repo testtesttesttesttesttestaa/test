@@ -1,6 +1,8 @@
-name: New Question (Exercise)
+name: New Exercise
 description: File an exercise
-title: "[New Question]: "
+    attributes:
+        label: Contact Details
+title: "[New Exercise]: "
 labels: ["exercise"]
 assignees:
   - codecalories
