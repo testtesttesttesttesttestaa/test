@@ -98,11 +98,11 @@ body:
       required: true
 
   - type: input
-    id: Name
+    id: contact-name
     attributes:
-      label: Contact [Name]
+      label: Contact Details [Name]
       description: Your name is required to describe the author of the exercise.
-      placeholder: "Your Name here"
+      placeholder: ex. john doe
     validations:
       required: true
 
