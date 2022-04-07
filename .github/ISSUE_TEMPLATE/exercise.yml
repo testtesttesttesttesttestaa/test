@@ -43,7 +43,7 @@ body:
     id: other-languages
     attributes:
       label: Other Languages
-      description: if you choose other languages or want to write multiple languages write here (first select 'other').  [if this should be blank write `_blank_` or `blank`]
+      description: If you choose other languages or want to write multiple languages write here (first select 'other').  [if this should be blank write `_blank_` or `blank`]
       placeholder: "language/s here"
     validations:
       required: true
@@ -52,7 +52,7 @@ body:
     id: Difficulty-Level
     attributes:
       label: Difficulty level
-      description: for more information check the [documentation](https://github.com)
+      description: For more information check the [documentation](https://github.com)
       multiple: false
       options:
         - 1 (easy)
@@ -96,8 +96,6 @@ body:
       label: Extra Information
       description: Any extra inforamtion 
       placeholder: Description
-    validations:
-      required: true
 
   - type: input
     id: Name
