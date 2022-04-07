@@ -22,7 +22,7 @@ body:
       placeholder: Description
     validations:
       required: true
-      
+
   - type: dropdown
     id: language
     attributes:
@@ -38,16 +38,16 @@ body:
         - Other
     validations:
       required: true
-      
+
   - type: input
     id: other-languages
     attributes:
       label: Other Languages
       description: if you choose other languages or want to write multiple languages write here (first select 'other').  [if this should be blank write `_blank_` or `blank`]
-      placeholder: "Your language here"
+      placeholder: "language/s here"
     validations:
       required: true
-      
+
   - type: dropdown
     id: Difficulty-Level
     attributes:
@@ -60,7 +60,7 @@ body:
         - 3 (medium)
         - 4
         - 5 (hard)
-        
+
   - type: input
     id: topics
     attributes:
@@ -68,7 +68,7 @@ body:
       description: Write the related topics here. for more information check the [documentation](https://github.com)
     validations:
       required: true
-     
+
   - type: input
     id: related-technologies
     attributes:
@@ -76,11 +76,20 @@ body:
       description: Write the related technologies here. for more information check the [documentation](https://github.com)
     validations:
       required: true
-      
+
   - type: input
     id: keywords
     attributes:
       label: Related Keywords
       description: Write the related keywords here. for more information check the [documentation](https://github.com)
+    validations:
+      required: true
+
+  - type: textarea
+    id: Extra-Information
+    attributes:
+      label: Extra Information
+      description: Any Extra Inforamtion 
+      placeholder: Description
     validations:
       required: true
