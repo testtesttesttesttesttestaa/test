@@ -9,7 +9,7 @@ body:
     id: Summary
     attributes:
       label: Summary
-      description: Summary of your exercise.
+      description: Summary of the exercise.
       placeholder: Summary Here      
     validations:
       required: true
@@ -27,7 +27,7 @@ body:
     id: language
     attributes:
       label: Language
-      description: What language is your exercise about?
+      description: What language is the exercise about?
       options:
         - Python
         - Java
@@ -72,7 +72,7 @@ body:
   - type: input
     id: related-technologies
     attributes:
-      label: related technologies
+      label: Related Technologies
       description: Write the related technologies here. for more information check the [documentation](https://github.com)
     validations:
       required: true
