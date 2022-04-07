@@ -41,18 +41,18 @@ body:
       
   - type: input
     id: other-languages
-    description: if you choose other languages or want to write multiple languages write here. (first select 'other')
     attributes:
-      label: Other Languages      
-      placeholder: "Your language s here"
+      label: Other Languages
+      description: if you choose other languages or want to write multiple languages write here. (first select 'other')
+      placeholder: "Your language here"
     validations:
       required: true  
       
   - type: dropdown
-    id: Difficulty-Level
-    description: for more information check the [documentation](https://github.com)
+    id: Difficulty-Level    
     attributes:
-      label: Difficulty level 
+      label: Difficulty level
+      description: for more information check the [documentation](https://github.com)
       multiple: false
       options:
         - 1 (easy)
