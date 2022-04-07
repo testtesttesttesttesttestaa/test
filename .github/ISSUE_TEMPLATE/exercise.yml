@@ -10,7 +10,7 @@ body:
     attributes:
       label: Summary
       description: Summary of the exercise.
-      placeholder: Summary Here
+      placeholder: Summary
     validations:
       required: true
   
@@ -44,7 +44,7 @@ body:
     attributes:
       label: Other Languages
       description: If you choose other languages or want to write multiple languages write here (first select 'other').  [if this should be blank write `_blank_` or `blank`]
-      placeholder: "language/s here"
+      placeholder: language/s
     validations:
       required: true
 
