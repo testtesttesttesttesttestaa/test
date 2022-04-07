@@ -49,7 +49,7 @@ body:
       required: true  
       
   - type: dropdown
-    id: Difficulty Level
+    id: Difficulty-Level
     attributes:
       label: Difficulty level of the exercise
       multiple: true
@@ -63,7 +63,7 @@ body:
   - type: input
     id: topics
     attributes:
-      label: Related Topics
+      label: Relate- Topics
       description: Write the related topics here. for more information check the [documentation](https://github.com)
       render: shell
     validations:
