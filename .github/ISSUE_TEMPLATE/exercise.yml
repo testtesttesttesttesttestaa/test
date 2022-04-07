@@ -10,7 +10,7 @@ body:
     attributes:
       label: Summary
       description: Summary of the exercise.
-      placeholder: Summary Here      
+      placeholder: Summary Here
     validations:
       required: true
   
@@ -49,7 +49,7 @@ body:
       required: true
       
   - type: dropdown
-    id: Difficulty-Level    
+    id: Difficulty-Level
     attributes:
       label: Difficulty level
       description: for more information check the [documentation](https://github.com)
