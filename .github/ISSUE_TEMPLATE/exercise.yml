@@ -52,7 +52,7 @@ body:
     id: Difficulty-Level
     attributes:
       label: Difficulty level of the exercise
-      multiple: true
+      multiple: false
       options:
         - 1 (easy)
         - 2
