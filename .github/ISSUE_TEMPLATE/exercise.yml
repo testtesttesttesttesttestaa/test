@@ -1,6 +1,6 @@
 name: New Exercise
 description: File an exercise
-title: "[New Exercise]: "
+title: "[New Exercise]: EXERCISE_TITLE_HERE"
 labels: ["exercise"]
 assignees:
   - codecalories
@@ -49,26 +49,26 @@ body:
       required: true  
       
   - type: dropdown
-    id: browsers
+    id: Difficulty Level
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Difficulty level of the exercise
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
+        - 1 (easy)
+        - 2
+        - 3 (medium)
+        - 4
+        - 5 (hard)
+        
+  - type: input
+    id: topics
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Related Topics
+      description: Write the related topics here. for more information check the [documentation](https://github.com)
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+    validations:
+      required: true
+      
+      
+      
+      
