@@ -70,9 +70,17 @@ body:
       required: true
      
   - type: input
-    id: related technologies
+    id: related-technologies
     attributes:
       label: related technologies
       description: Write the related technologies here. for more information check the [documentation](https://github.com)
+    validations:
+      required: true
+      
+        - type: input
+    id: keywords
+    attributes:
+      label: Related Keywords
+      description: Write the related keywords here. for more information check the [documentation](https://github.com)
     validations:
       required: true
