@@ -100,5 +100,6 @@ body:
       label: Contact Details [Email]
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
+      tip: We send you a verification email ASAP, and when you validate your email this will post.
     validations:
       required: true
