@@ -43,7 +43,7 @@ body:
     id: other-languages
     attributes:
       label: Other Languages
-      description: if you choose other languages or want to write multiple languages write here. (first select 'other')
+      description: if you choose other languages or want to write multiple languages write here. (first select 'other') [if this should be blank write `_blank_`]
       placeholder: "Your language here"
     validations:
       required: true  
