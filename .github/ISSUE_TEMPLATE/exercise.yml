@@ -92,7 +92,7 @@ body:
     id: Extra-Information
     attributes:
       label: Extra Information
-      description: Any Extra Inforamtion 
+      description: Any extra inforamtion 
       placeholder: Description
     validations:
       required: true
@@ -116,9 +116,9 @@ body:
       required: true
 
   - type: textarea
-    id: contact-extra
+    id: Contact-Extra
     attributes:
       label: Extra Contact Information
-      description: Your Extra Contact Infomation like (Twiiter, Facebook and ...) 
-      placeholder: ex. Twitter.com/example
+      description: Your extra contact infomation like (Twiiter, Facebook and ...) 
+      placeholder: ex. twitter.com/example
       render: shell
