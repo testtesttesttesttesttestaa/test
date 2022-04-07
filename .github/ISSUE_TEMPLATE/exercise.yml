@@ -60,9 +60,11 @@ body:
         - 3 (medium)
         - 4
         - 5 (hard)
+    validations:
+      required: true
 
   - type: input
-    id: topics
+    id: Topics
     attributes:
       label: Related Topics
       description: Write the related topics here. for more information check the [documentation](https://github.com)
@@ -71,7 +73,7 @@ body:
       required: true
 
   - type: input
-    id: related-technologies
+    id: Technologies
     attributes:
       label: Related Technologies
       description: Write the related technologies here. for more information check the [documentation](https://github.com)
@@ -84,7 +86,7 @@ body:
     attributes:
       label: Related Keywords      
       description: Write the related keywords here. for more information check the [documentation](https://github.com)
-      placeholder: Key words
+      placeholder: Keywords
     validations:
       required: true
 
@@ -98,7 +100,7 @@ body:
       required: true
 
   - type: input
-    id: contact-name
+    id: Name
     attributes:
       label: Contact Details [Name]
       description: Your name is required to describe the author of the exercise.
@@ -107,7 +109,7 @@ body:
       required: true
 
   - type: input
-    id: contact
+    id: Email
     attributes:
       label: Contact Details [Email]
       description: How can we get in touch with you if we need more info? We send you a verification email ASAP, and when you validate your email this will post.
@@ -116,7 +118,7 @@ body:
       required: true
 
   - type: textarea
-    id: Contact-Extra
+    id: Extra-Contact-Information
     attributes:
       label: Extra Contact Information
       description: Your extra contact infomation like (Twiiter, Facebook and ...) 
