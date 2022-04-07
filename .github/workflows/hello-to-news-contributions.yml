@@ -5,9 +5,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: test
-        uses: ./
+      - uses: Code-Hex/first-label-interaction@v1.0.1
         with:
           issue-labels: '["exercise", "help wanted"]'
           pr-labels: '["help wanted"]'
