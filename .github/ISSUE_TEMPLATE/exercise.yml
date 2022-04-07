@@ -98,8 +98,7 @@ body:
     id: contact
     attributes:
       label: Contact Details [Email]
-      description: How can we get in touch with you if we need more info?
+      description: How can we get in touch with you if we need more info? We send you a verification email ASAP, and when you validate your email this will post.
       placeholder: ex. email@example.com
-      tip: We send you a verification email ASAP, and when you validate your email this will post.
     validations:
       required: true
