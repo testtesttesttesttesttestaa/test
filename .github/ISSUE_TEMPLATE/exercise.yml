@@ -41,9 +41,9 @@ body:
       
   - type: input
     id: other-languages
+    description: if you choose other languages or want to write multiple languages write here. (first select 'other')
     attributes:
-      label: Other Languages
-      description: if you choose other languages or want to write multiple languages write here. first select other
+      label: Other Languages      
       placeholder: "Your language s here"
     validations:
       required: true  
